@@ -1,0 +1,3 @@
+recipiente = "baribijo";
+
+alert(recipiente)
