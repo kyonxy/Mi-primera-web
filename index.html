@@ -10,18 +10,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Nerko+One&family=Open+Sans:wght@400;600;700&family=Outfit:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="fondo">
 	<header>
+		<nav class="head__menu">
 			<div class="logo">
+				<a href="#">
 				<img src="img/kyn.png" class="head__img">
-				<h2 class="textlogo">Diseño KYN</h1>
+				</a>
+				<h1 class="textlogo">Diseño KYN</h1>
 			</div>
-			 <nav class="head__menu">
-						<a href="" class="menu__text">Inicio</a>
-						<a href="" class="menu__text">Que hacemos</a>
-						<a href="" class="menu__text">Contacto</a>
+			 	<div class="enlaces">	
+			 		<a href="#" class="menu__text">Inicio</a>
+					<a href="#conocimiento" class="menu__text">Tecnologias</a>
+					<a href="" class="menu__text">Trabajos</a>
+					<a href="" class="menu__text">Contacto</a>
+				</div>
+			<button class="btn__menu" type="button">
+					<span class="br-1"></span>
+					<span class="br-2"></span>
+					<span class="br-3"></span>
+			</button>
+
 			</nav>
-	</header>	
+
+	</header>
+<div class="web">
 	<section class="section1">
 		<div class="section1__div">
 		<img src="img/inicio.svg" class="section1__img">
@@ -34,36 +46,47 @@
 		</div>
 
 	</section>
-	</div>
+	
 	<div class="section1__wave">
-	<img src="img/wave.svg">
+	<img src="img/wave.svg" class="wave">
 	</div>
-	<section class="section2">
+	<section class="section2" id="conocimiento">
 		<h2 class="section2__title">Conocimientos</h2>
 		<div class="conocimientos">
 			<div class="conocimiento">
 				<img src="img/html-5.png" class="conocimiento__img">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				<p></p>
 			</div>
 			<div class="conocimiento " >
 				<img src="img/css.png" class="conocimiento__img">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				<p></p>
 			</div>
 			<div class="conocimiento">
 
 				<img src="img/js.png" class="conocimiento__img">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				<p></p>
+			</div>
+		</div>
+		<div class="conocimientos">
+			<div class="conocimiento">
+				<img src="img/ps.png" class="conocimiento__img">
+				<p></p>
+			</div>
+			<div class="conocimiento " >
+				<img src="img/ia.png" class="conocimiento__img">
+				<p></p>
+			</div>
+			<div class="conocimiento">
+
+				<img src="img/corel.png" class="conocimiento__img">
+				<p></p>
 			</div>
 		</div>
 	</section>
 	<footer >
 		<h3 class="footer__text">Pagina Creada por <a href="https://www.disenokyn.com">Diseno Kyn</a></h3>
 	</footer>
+</div>
+	<script type="text/javascript" src="codigo.js"></script>
 </body>
 </html>
